@@ -13,25 +13,40 @@ export default function HeaderTop()
         </p>
         <nav>
           <ul>
-            <li>My Account
-              <i className="fas fa-chevron-down"/>
-              <ul id='drop'>
+            <li>
+              <div>
+                My Account
+                <i className="fas fa-chevron-down"/>
+              </div>
+              <ul id='dropDown'>
                 <li>My profile</li>
                 <li>My orders</li>
                 <li>Purchase History</li>
-
               </ul>
             </li>
-            <li>$Dollar
-              <i className="fas fa-chevron-down"/>
+            <li>
+              <div>
+                Dollar
+                <i className="fas fa-chevron-down"/>
+              </div>
+              <ul id='dropDown'>
+                <li>Рубли</li>
+                <li>Դրամ</li>
+              </ul>
             </li>
-            <li>English
-              <i className="fas fa-chevron-down"/>
+            <li>
+              <div>
+                English
+                <i className="fas fa-chevron-down"/>
+              </div>
+              <ul id='dropDown'>
+                <li>Հայերեն</li>
+                <li>Русский</li>
+              </ul>
             </li>
           </ul>
         </nav>
       </div>
-
-
-    </div> );
+    </div>
+  );
 }
